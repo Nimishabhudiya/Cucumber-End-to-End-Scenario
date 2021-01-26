@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 9189642500,
+  "duration": 8655398400,
   "status": "passed"
 });
 formatter.scenario({
@@ -208,28 +208,28 @@ formatter.match({
   "location": "MySetDef.i_am_on_the_books_category_page()"
 });
 formatter.result({
-  "duration": 86168900,
+  "duration": 99028700,
   "status": "passed"
 });
 formatter.match({
   "location": "MySetDef.i_click_on_sortby()"
 });
 formatter.result({
-  "duration": 253492700,
+  "duration": 121898600,
   "status": "passed"
 });
 formatter.match({
   "location": "MySetDef.i_select_AtoZ_from_Sort_by_DropdownList()"
 });
 formatter.result({
-  "duration": 1844506300,
+  "duration": 1348694800,
   "status": "passed"
 });
 formatter.match({
   "location": "MySetDef.i_click_on_display()"
 });
 formatter.result({
-  "duration": 118284400,
+  "duration": 112961900,
   "status": "passed"
 });
 formatter.match({
@@ -242,42 +242,43 @@ formatter.match({
   "location": "MySetDef.i_select_from_Display_DropdownList(int)"
 });
 formatter.result({
-  "duration": 1566327800,
+  "duration": 1579275700,
   "status": "passed"
 });
 formatter.match({
   "location": "MySetDef.i_Click_on_AddtoCart_Button_on_Firstproduct()"
 });
 formatter.result({
-  "duration": 103313300,
+  "duration": 132270100,
   "status": "passed"
 });
 formatter.match({
   "location": "MySetDef.i_go_to_the_Shopping_cart()"
 });
 formatter.result({
-  "duration": 718537900,
+  "duration": 1703940600,
   "status": "passed"
 });
 formatter.match({
   "location": "MySetDef.i_Click_in_Tearms_service_box()"
 });
 formatter.result({
-  "duration": 15852014300,
-  "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d84.0.4147.105)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-DELI81I\u0027, ip: \u0027192.168.1.92\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\rohit\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58030}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: f7f0b8d957c84796cef2a991fae94abf\n*** Element info: {Using\u003did, value\u003dtermsofservice}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\tat org.example.Utils.waitForElementToBevisible(Utils.java:63)\r\n\tat org.example.Books.AgreeButton(Books.java:73)\r\n\tat org.example.MySetDef.i_Click_in_Tearms_service_box(MySetDef.java:57)\r\n\tat ✽.And I Click in Tearms service box(src/Resources/Feature/EndtoEnd.feature:13)\r\n",
-  "status": "failed"
+  "duration": 182606900,
+  "status": "passed"
 });
 formatter.match({
   "location": "MySetDef.i_Click_on_Checkout_Button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1629880000,
+  "status": "passed"
 });
 formatter.match({
   "location": "MySetDef.i_Click_on_Checkoutguest_Button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2210839200,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -289,7 +290,8 @@ formatter.match({
   "location": "MySetDef.i_enter_text_in_FirstName_Field_as(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 158518800,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -301,7 +303,8 @@ formatter.match({
   "location": "MySetDef.i_enter_text_in_LastName_Field_as(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 138672700,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -313,31 +316,36 @@ formatter.match({
   "location": "MySetDef.i_enter_Email_in_email_field_as(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 157227900,
+  "status": "passed"
 });
 formatter.match({
   "location": "MySetDef.i_enter_address()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 143028200,
+  "status": "passed"
 });
 formatter.match({
   "location": "MySetDef.i_click_On_country()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 126653500,
+  "status": "passed"
 });
 formatter.match({
   "location": "MySetDef.i_Select_India_country_from_Country_DropDownList()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 70083000,
+  "status": "passed"
 });
 formatter.match({
   "location": "MySetDef.i_enter_City_Name()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 132353900,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -353,7 +361,8 @@ formatter.match({
   "location": "MySetDef.i_enter_Adrees_and_Address_in_their_field(int,int)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 274745500,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -365,7 +374,8 @@ formatter.match({
   "location": "MySetDef.i_enter_ZipCode_as(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 118691100,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -377,7 +387,8 @@ formatter.match({
   "location": "MySetDef.i_enter_PhoneNumber_as(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 142183400,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -389,13 +400,15 @@ formatter.match({
   "location": "MySetDef.i_enter_FaxNumber_as(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 159943600,
+  "status": "passed"
 });
 formatter.match({
   "location": "MySetDef.i_Click_on_continue_Button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 95268900,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -407,43 +420,50 @@ formatter.match({
   "location": "MySetDef.i_select_Second_Day_option_from_given_option(int)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1387391200,
+  "status": "passed"
 });
 formatter.match({
   "location": "MySetDef.i_Click_on_continue2_Button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 99412500,
+  "status": "passed"
 });
 formatter.match({
   "location": "MySetDef.i_select_Credit_card_as_a_Type_of_Card()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 773260700,
+  "status": "passed"
 });
 formatter.match({
   "location": "MySetDef.i_click_on_continue()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 89197300,
+  "status": "passed"
 });
 formatter.match({
   "location": "MySetDef.i_click_on_type_card_droplist()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 784818000,
+  "status": "passed"
 });
 formatter.match({
   "location": "MySetDef.i_select_Visa_type_credit_card()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 70688700,
+  "status": "passed"
 });
 formatter.match({
   "location": "MySetDef.i_enter_CardholderName()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 175192400,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -455,19 +475,22 @@ formatter.match({
   "location": "MySetDef.i_enter_digit_CardNumber(int)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 206483800,
+  "status": "passed"
 });
 formatter.match({
   "location": "MySetDef.i_select_Expiry_date_Month_from_DropdownList()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 317001500,
+  "status": "passed"
 });
 formatter.match({
   "location": "MySetDef.i_select_Expire_year_from_Dropdownlist()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 246587400,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -479,19 +502,22 @@ formatter.match({
   "location": "MySetDef.i_enter_digit_CardCode(int)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 113901600,
+  "status": "passed"
 });
 formatter.match({
   "location": "MySetDef.i_Click_on_continue_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 88547900,
+  "status": "passed"
 });
 formatter.match({
   "location": "MySetDef.i_Click_on_confirm_Button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 742935000,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -503,10 +529,11 @@ formatter.match({
   "location": "MySetDef.i_able_to_proccessed_my_order_successfully_and_get_the_order_number_as(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 109500,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 30600,
+  "duration": 19900,
   "status": "passed"
 });
 });
